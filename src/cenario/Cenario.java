@@ -21,7 +21,7 @@ public class Cenario {
 	public Cenario(Window window){
 		janela =  window;
 		cena =  new Scene();
-		cena.loadFromFile("secenes/cena1.scn");	
+		cena.loadFromFile("data/secenes/cena1.scn");	
 		personagem = new Personagem(96,520); 		
 		teclado = janela.getKeyboard();					
 		run();											

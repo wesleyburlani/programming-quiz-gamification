@@ -26,7 +26,7 @@ public class Main {
 		
 
 		for(int i = 0; i < 10; i++){
-			File file = new File("/home/eduardo-motta/workspace/FinalWorkProg1/prob/"+arq+ i + ".out");
+			File file = new File("data/prob/"+arq+ i + ".out");
 			file.delete();
 			System.out.println(file);
 		}

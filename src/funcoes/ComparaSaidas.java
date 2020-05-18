@@ -10,8 +10,8 @@ public class ComparaSaidas {
 		String arquivoIn = null , arquivoOut = null;
 		
 		try {
-			arquivoIn  = new Scanner(new File("/home/eduardo-motta/workspace/FinalWorkProg1/prob/"+arq+".txt")).next();
-			arquivoOut = new Scanner(new File("/home/eduardo-motta/workspace/FinalWorkProg1/prob/"+arq+".out")).next();
+			arquivoIn  = new Scanner(new File("data/prob/"+arq+".txt")).next();
+			arquivoOut = new Scanner(new File("data/prob/"+arq+".out")).next();
 		}catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

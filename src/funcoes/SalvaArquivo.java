@@ -16,7 +16,7 @@ public class SalvaArquivo extends JFrame{
 		
 		String cod;
 		cod = codigo.getText();
-		FileWriter writer = new FileWriter(new File("/home/eduardo-motta/workspace/FinalWorkProg1/prob/"+arq));  
+		FileWriter writer = new FileWriter(new File("data/prob/"+arq));  
 		PrintWriter saida = new PrintWriter(writer); 
 		saida.println(cod);
 		JOptionPane.showMessageDialog(null, "Eviado "+ arq);

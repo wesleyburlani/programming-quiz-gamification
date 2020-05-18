@@ -85,7 +85,7 @@ public class TelaDeCode extends JFrame implements ActionListener{
 		if(evento.getSource() == BEnviar){
 			try {
 				new SalvaArquivo(codigo, arq+".out");
-				File file = new File("/home/eduardo-motta/workspace/FinalWorkProg1/prob/"+arq+".out");
+				File file = new File("data/prob/"+arq+".out");
 				ComparaSaidas fl = new ComparaSaidas();
 				
 				try {
